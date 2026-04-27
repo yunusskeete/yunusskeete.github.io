@@ -6,12 +6,12 @@
 <style>
   .headshot { height: 12em; width: 12em; border-radius: 50%; object-fit: cover; flex-shrink: 0; margin: 0; }
   .site-header { display: flex; flex-wrap: nowrap; align-items: center; gap: 5em; }
-  @media (max-width: 600px) { .headshot { height: 7em; width: 7em; } .site-header { gap: 1.5em; } .site-header h1 { font-size: 1.75em !important; } }
+  @media (max-width: 600px) { .headshot { height: 7em; width: 7em; } .site-header { gap: 1.5em; } .site-header h1 { font-size: 2em !important; } .site-header-inner { flex-direction: column !important; align-items: flex-start !important; gap: 0.3em !important; } .site-header-inner h1 { margin: 0 !important; padding: 0 !important; } .site-header-inner nav { margin: 0.5em 0 !important; padding: 0 !important; } .site-header-inner nav a { margin: 0 1.3em 0 0 !important; } }
 </style>
 
 <header class="hover smooth site-header">
   <img src="{{ "/assets/images/headshot.jpg" | relative_url }}" alt="{{ site.author | escape }}" class="headshot">
-  <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;flex:1;min-width:0;">
+  <div class="site-header-inner" style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;flex:1;min-width:0;">
     {% unless site.show_minimal and site.navigation and site.external %}
       <h1 {% if site.navigation and site.external %}class="full"{% endif %} style="font-size:2.5em;"><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
     {% endunless %}
