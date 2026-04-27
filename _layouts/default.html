@@ -10,7 +10,7 @@
 </style>
 
 <header class="hover smooth site-header">
-  <img src="{{ "/assets/images/headshot.jpg" | relative_url }}" alt="{{ site.author | escape }}" class="headshot">
+  <a href="{{ "/" | relative_url }}"><img src="{{ "/assets/images/headshot.jpg" | relative_url }}" alt="{{ site.author | escape }}" class="headshot"></a>
   <div class="site-header-inner" style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;flex:1;min-width:0;">
     {% unless site.show_minimal and site.navigation and site.external %}
       <h1 {% if site.navigation and site.external %}class="full"{% endif %} style="font-size:2.5em;"><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
