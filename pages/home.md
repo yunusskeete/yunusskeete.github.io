@@ -26,13 +26,13 @@ I build across the full stack - Python APIs, cloud infrastructure (Azure, AWS), 
 
 # Education
 
-## PhD
+## PhD (Discontinued)
 
-(Discontinued) PhD in Artificial Intelligence, Imperial College London, 2022-2022
+PhD in Artificial Intelligence, Imperial College London, 2022-2022 - **Discontinued**
 
 ## MEng
 
-MEng in Mechanical Engineering, University of Bristol, 2017-2021
+MEng in Mechanical Engineering, University of Bristol, 2017-2021 - **First Class Honours**
 
 ---
 
