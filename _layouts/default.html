@@ -5,10 +5,11 @@
 
 <style>
   .headshot { height: 12em; width: 12em; border-radius: 50%; object-fit: cover; flex-shrink: 0; margin: 0; }
-  @media (max-width: 600px) { .headshot { height: 8em; width: 8em; } }
+  .site-header { display: flex; flex-wrap: nowrap; align-items: center; gap: 5em; }
+  @media (max-width: 600px) { .headshot { height: 8em; width: 8em; } .site-header { gap: 1.5em; } }
 </style>
 
-<header class="hover smooth" style="display:flex;flex-wrap:nowrap;align-items:center;gap:5em;">
+<header class="hover smooth site-header">
   <img src="{{ "/assets/images/headshot.jpg" | relative_url }}" alt="{{ site.author | escape }}" class="headshot">
   <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;flex:1;min-width:0;">
     {% unless site.show_minimal and site.navigation and site.external %}
