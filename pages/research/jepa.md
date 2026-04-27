@@ -48,6 +48,8 @@ V-JEPA demonstrates that the JEPA framework is not image-specific: the principle
 
 ---
 
+## Implementations
+
 Reference implementations of I-JEPA and V-JEPA to support research can be found at [github.com/yunusskeete/jepas](https://github.com/yunusskeete/jepas).
 
 ---
