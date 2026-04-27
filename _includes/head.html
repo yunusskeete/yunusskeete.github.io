@@ -23,6 +23,37 @@
 <script defer src="{{ "/assets/katex/contrib/auto-render.min.js" | relative_url }}" onload="renderMathInElement(document.body)"></script>
 {%- endunless -%}
 {%- endif -%}
+{%- if page.mermaid or site.mermaid -%}
+<script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: false, theme: 'neutral' });
+  document.addEventListener('DOMContentLoaded', async () => {
+    document.querySelectorAll('pre > code.language-mermaid').forEach(el => {
+      const pre = el.parentElement;
+      pre.className = 'mermaid';
+      pre.textContent = el.textContent;
+    });
+    await mermaid.run();
+    document.querySelectorAll('.mermaid svg').forEach(svg => {
+      const container = document.createElement('div');
+      container.style.cssText = 'width:100%;height:520px;border:1px solid #ddd;border-radius:4px;overflow:hidden;cursor:grab;';
+      svg.parentNode.insertBefore(container, svg);
+      container.appendChild(svg);
+      svg.style.width = '100%';
+      svg.style.height = '100%';
+      svgPanZoom(svg, {
+        zoomEnabled: true,
+        controlIconsEnabled: true,
+        fit: true,
+        center: true,
+        minZoom: 0.1,
+        maxZoom: 10,
+      });
+    });
+  });
+</script>
+{%- endif -%}
 {%- if site.comments.disqus_shortname and page.layout == "post" -%}
 <script src="//{{ site.comments.disqus_shortname }}.disqus.com/embed.js" async></script>
 {%- endif -%}
@@ -30,3 +61,11 @@
 <script data-isso="http://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>
 {%- endif -%}
 {%- if site.show_sidebar %}{% include sidebar.html %}{% endif %}
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("a[href^='http']").forEach(function(a) {
+      a.setAttribute("target", "_blank");
+      a.setAttribute("rel", "noopener noreferrer");
+    });
+  });
+</script>
