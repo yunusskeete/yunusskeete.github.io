@@ -4,6 +4,8 @@ permalink: "/research/jepa/"
 layout: page
 ---
 
+> A research framework for self-supervised world modelling.
+
 ## Overview
 
 A central challenge in self-supervised visual representation learning is determining what to predict. Pixel-level objectives are expressive but brittle: they force models to reconstruct low-level details that carry little semantic information, often at the cost of the higher-level structure that matters for downstream tasks. Joint-Embedding Predictive Architectures (JEPAs) offer a different answer  rather than predicting in pixel space, predict in representation space.

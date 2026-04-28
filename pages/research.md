@@ -22,6 +22,7 @@ Formally, my research areas include world modelling, self-supervised representat
 ### Fundamental Research
 *(Conducted in collaboration with the [University of Bristol](https://www.bristol.ac.uk/), as Research Scientist at PHilita, and as Founder & CEO of [Spatial Intelligence](https://www.spatial-intelligence.co.uk/).)*
 - [Spatial Intelligence]({% link pages/research/spatial-intelligence.md %}): From structured representations to **object-centric world models**.
-- [Latent Cycle Transformers]({% link pages/research/lct.md %}): Variable-length continuous reasoning over heirarchical representations for **true "thinking" models**.
 - [JEPAs]({% link pages/research/jepa.md %}): Joint-Embedding Predictive Architectures and latent-variable energy based models for self-supervised representation learning and **world modelling**.
+- [Object Representation Learning]({% link pages/research/cord.md %}): Semantic, spatial, and relational **object understanding** for object-centric world models.
+- [Latent Cycle Transformers]({% link pages/research/lct.md %}): Variable-length continuous reasoning over heirarchical representations for **true "thinking" models**.
 - Spatio-temporal modelling: MGCRNN - Multi-graph convolutional, recurrent neural networks for space-time series prediction.

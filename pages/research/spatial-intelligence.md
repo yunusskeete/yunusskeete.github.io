@@ -4,6 +4,10 @@ permalink: "/research/spatial-intelligence/"
 layout: page
 ---
 
+> A research programme for learning spatially and geometrically structured representations from multi-modal world models.
+
+*(Conducted as Founder & CEO of [Spatial Intelligence](https://www.spatial-intelligence.co.uk/))*
+
 ## Overview
 
 Spatial intelligence \- the capacity to understand, reason about, and act within three-dimensional environments \- sits at the intersection of perception, representation, and action. It underpins some of the most ambitious open problems in AI: generalising from visual observation to physical interaction, learning the geometry of the world without explicit supervision, and building models that organise knowledge the way humans do \- through objects.

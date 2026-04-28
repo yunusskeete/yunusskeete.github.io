@@ -4,6 +4,8 @@ permalink: "/research/lct/"
 layout: page
 ---
 
+> A new approach to variable-length continuous reasoning across multiple scales.
+
 *(Conducted as Founder & CEO of [Spatial Intelligence](https://www.spatial-intelligence.co.uk/))*
 
 ## Overview
