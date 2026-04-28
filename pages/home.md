@@ -4,11 +4,14 @@ permalink: "/"
 layout: page
 ---
 
-I'm an AI specialist with a background in research science, applied AI engineering, and software engineering. I'm currently Founder & CEO of [Spatial Intelligence](https://www.spatial-intelligence.co.uk/), a deeptech AI startup building tools for machines that understand the structure and content of physical environments.
+I'm an AI specialist with a background in research science, applied AI engineering, and software engineering. I'm currently Founder & CEO of [Spatial Intelligence](https://www.spatial-intelligence.co.uk/) - a deeptech AI startup building tools for machines that understand the structure and content of physical environments.
 
 My work spans the gap between fundamental research and production systems - from designing self-supervised world models and reasoning architectures, to shipping scalable AI-powered products on cloud infrastructure.
 
-I care about outcomes over output and impact over influence. I enjoy providing (and receiving!) mentorship and thrive in tightly-knit, high-agency interdisciplinary teams. I think the best researchers and engineers are creatives who are genuinely fascinated by the technology they build, and humble enough to keep learning from everyone around them.
+I care about outcomes over output and impact over influence.
+I enjoy providing (and receiving!) mentorship and thrive in tightly-knit, high-agency interdisciplinary teams.
+I think the best researchers and engineers are creatives who are genuinely fascinated by the technology they build, and humble enough to keep learning from everyone around them.
+I strive to model myself around these values, and to share them with others.
 
 ---
 
