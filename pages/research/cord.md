@@ -22,6 +22,8 @@ This work builds from a clean DINO-DETR baseline (DINO image encoder, DEtection 
 
 ## Motivation
 
+![Architectural overview of DEtection TR](../../assets/images/DINO-DETR.drawio.png)
+
 Standard detection transformers - from DETR to its many descendants - frame object queries as joint encoders of appearance and location, trained end-to-end via bipartite matching losses.
 This design is effective for detection but produces representations with two structural limitations.
 
@@ -35,4 +37,4 @@ These are not incidental failures of the detection task - they are aspects of ob
 
 ---
 
-More details to come in preprint.
+More details to come in preprint...
