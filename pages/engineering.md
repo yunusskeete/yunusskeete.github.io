@@ -23,6 +23,7 @@ The [Compositional 3D Scene Building](https://www.spatial-intelligence.co.uk/sce
 - **Independent GPU and CPU services** (Blender rendering pool, convex decomposition, geometry generation) run as separate ACA services and scale independently of the orchestrator, matching resource allocation to workload type
 - **LLM orchestration** - GPT agents drive multi-stage scene planning; CLIP-indexed vector search (Weaviate) retrieves semantically relevant 3D objects and materials without manual curation
 
+**Architecture diagram:**
 ```mermaid
 graph TB
     subgraph CLIENT["Client Layer"]
