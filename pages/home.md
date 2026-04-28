@@ -23,7 +23,7 @@ My research centres on **spatial intelligence** - specifically, how machines can
 
 ## [Engineering]({% link pages/engineering.md %})
 
-I build across the full stack - Python APIs, cloud infrastructure (Azure, AWS), ML systems, and TypeScript frontends - with a focus on reliable, scalable AI products. Current engineering work includes an async, GPU-bound 3D scene generation pipeline using LLM orchestration, vector search, and event-driven autoscaling on Azure Container Apps.
+I build across the full stack - Python APIs, cloud infrastructure (Azure, AWS), ML systems, and TypeScript frontends - with a focus on reliable, scalable AI products. Current engineering work includes an async, GPU-bound, multi-stage 3D scene generation pipeline using LLM orchestration, vector search, and event-driven autoscaling on Azure Container Apps.
 
 ---
 
