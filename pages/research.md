@@ -15,7 +15,7 @@ Formally, my research areas include world modelling, self-supervised representat
 
 ### Applied Research
 *(Conducted as Founder & CEO of [Spatial Intelligence](https://www.spatial-intelligence.co.uk/) and as Research Scientist at PHilita.)*
-- [Spatial Context Protocol]({% link pages/research/scp.md %}): **Spatially-grounded AI agents** that reason directly about position, routes, visual landmarks, and live state within physical buildings.
+- [Spatial Context Protocol]({% link pages/research/scp.md %}): AI agents that **understand, navigate, and control physical buildings** in real time.
 - [Compositional 3D Scene Building](https://www.spatial-intelligence.co.uk/scene-generator): **Generating 3D scenes** and objects from natural language descriptions.
 - Spatio-temporal modelling: **Predictive epidemiology** and public transport optimisation during the pandemic. (PHilita x TfL, presented at the European Transport Conference, Milan, 2023).
 
