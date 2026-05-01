@@ -10,7 +10,7 @@ layout: page
 
 ## Overview
 
-The Spatial Context Protocol (SCP) enables any building to be represented as a compact, LLM-interpretable spatial model. Lightweight enough to run on modest hardware, the model grounds an AI agent in the physical world — giving it native understanding of position, routes, visual landmarks, and live state within a space.
+The [Spatial Context Protocol (SCP)](https://yunusskeete.github.io/scp/) enables any building to be represented as a compact, LLM-interpretable spatial model. Lightweight enough to run on modest hardware, the model grounds an AI agent in the physical world — giving it native understanding of position, routes, visual landmarks, and live state within a space.
 
 As buildings increasingly expose programmatic interfaces — sensors, lighting systems, access control, climate — SCP provides the layer through which agents natively understand and act within them. Rather than treating building control as a bolt-on integration, SCP unifies spatial reasoning and system control: an agent can observe live state, answer natural language queries, and operate building systems in real time, without a database or vector store.
 
@@ -67,4 +67,8 @@ The authoring process is on a path toward a guided, near-automated workflow from
 
 ---
 
-SCP spatially grounds AI agents for the first time — enabling them to assist with genuinely 3D tasks, and marking a step toward agents that can inhabit and operate autonomously in the physical world.
+SCP spatially grounds AI agents for the first time — enabling them to assist with genuinely 3D tasks, and marking **a step toward agents that can inhabit and operate autonomously in the physical world.**
+
+_
+
+[Spatial Context Protocol (SCP)](https://yunusskeete.github.io/scp/)
