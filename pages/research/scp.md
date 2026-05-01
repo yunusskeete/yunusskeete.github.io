@@ -65,4 +65,6 @@ A building is described to the system from simple inputs — a walkthrough video
 
 The authoring process is on a path toward a guided, near-automated workflow from a video walkthrough or existing floorplan — making SCP deployable at scale across any building, without bespoke engineering for each location.
 
-In doing so, SCP spatially grounds AI agents for the first time — enabling them to assist with genuinely 3D tasks, and marking a step toward agents that can inhabit and operate autonomously in the physical world.
+---
+
+SCP spatially grounds AI agents for the first time — enabling them to assist with genuinely 3D tasks, and marking a step toward agents that can inhabit and operate autonomously in the physical world.
